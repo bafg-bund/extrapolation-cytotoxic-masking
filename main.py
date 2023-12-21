@@ -73,7 +73,7 @@ warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
 ###############################################################################
 ###############################################################################
 
-test = "pLB" #name of assay used
+test = "p-YES" #name of assay used
 proj = "project" #name of project 
 imName = "BPA" #++ name of the image to be loaded. 
 imFormat = ".jpg" #++ format of the image to be loaded
