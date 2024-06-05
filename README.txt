@@ -26,7 +26,7 @@ This script is intended to be used as an evaluation program for the generation
 of chromatograms from image files and the extrapolation of cytotoxic masked 
 effects for planar in vitro assays. It has been validated using data from the 
 planar Yeast Estrogen Screen (p-YES). Cytotoxic masking often occurs in ring 
-patterns (or halos). Please consider confirming cytotoxicity with a resazurin 
+patterns (or haloes). Please consider confirming cytotoxicity with a resazurin 
 assay as in the source below, as ring patterns may also result from other 
 reasons. The script can also be used alone to generate chromatograms.
 
@@ -43,7 +43,7 @@ How the script works
 --------------------
 The script reads image files resulting from planar in vitro assays and
 converts the rgb-values to grey-values. Based on that it creates track-wise
-chromatograms (grey-vlaue agains pixel y-position). It is only possible to work
+chromatograms (grey-vlaue against pixel y-position). It is only possible to work
 with one track at a time. To extrapolate cytotoxic masking the remaining 
 information of the resulting double peak is used. The outer legs of the double 
 peaks deal as a basis to fit the peak function of choice. The resulting peaks 
